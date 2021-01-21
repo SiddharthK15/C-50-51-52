@@ -1,0 +1,76 @@
+.header{
+    
+    font-family:'Baskerville Old Face';
+    height:200px;
+    
+    background-color:black;
+}
+
+body{
+    background-image: url("bg.jpg");
+    text-align: center;
+    border:solid black 10px;
+   
+}
+
+p{
+    font-size:25px;
+    color:green
+}
+
+h2,h1{
+
+    text-align: center;
+    color:white;
+    
+   
+
+}
+
+.pics{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+
+    
+
+}
+
+.h2{
+    font-family:'Chau Philomene One';
+    height:200px;
+    
+    background-color:darkgray;
+}
+
+a:link{
+    color:black
+    
+
+}
+a:visited{
+    color:darkblue
+}
+
+.item:hover{
+    transform:scale(1.1);
+    opacity:0.8
+    
+}
+
+.item p{
+
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    
+    }
+
+    .item:hover p{
+
+        opacity:0.7
+    
+    }
